@@ -13,6 +13,14 @@ Roblox opens a event handle on launch to prevent a second instance from starting
 This tool closes that handle, allowing additional instances to open without being killed.
 
 <br>
+## Download
+ 
+Grab the latest `.exe` from [Releases](https://github.com/imregd/RobloxMultiInstance/releases/tag/v1.0.0), or build from source below.
+ 
+> Antivirus may flag the exe since it closes process handles. This is expected behavior for this type of tool.
+ 
+<br>
+
 
 ## Usage
   (Must be ran in administrator mode)
@@ -27,7 +35,7 @@ This tool closes that handle, allowing additional instances to open without bein
 ## Build from source
 
 ```bash
-git clone https://github.com/your-username/RobloxMultiInstance.git
+git clone https://github.com/imregd/RobloxMultiInstance.git
 cd RobloxMultiInstance
 dotnet build -c Release
 ```
