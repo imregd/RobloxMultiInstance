@@ -70,8 +70,6 @@ static List<SYSTEM_HANDLE> GetAllHandles()
 
     var structSize = Marshal.SizeOf<SYSTEM_HANDLE>();
 
-    long bytesNeeded = 8 + ((long)handleCount * structSize);
-
 
     var handleArray = IntPtr.Add(buffer, 8); // skip the handlecount at the start of buffer byte array
 
