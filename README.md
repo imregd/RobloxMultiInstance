@@ -1,5 +1,7 @@
 # Roblox Multi Instance
 
+NOTE: No longer working due to issues of detecting the actual roblox player beta instance
+
 Run multiple instances of Roblox at once, useful for managing several accounts simultaneously.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -13,7 +15,7 @@ Roblox opens a event handle on launch to prevent a second instance from starting
 This tool closes that handle, allowing additional instances to open without being killed.
 
 <br>
-## Download
+Download
  
 Grab the latest `.exe` from [Releases](https://github.com/imregd/RobloxMultiInstance/releases/tag/v1.0.0), or build from source below.
  
