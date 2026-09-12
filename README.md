@@ -1,7 +1,5 @@
 # Roblox Multi Instance
 
-NOTE: No longer working due to issues of detecting the actual roblox player beta instance
-
 Run multiple instances of Roblox at once, useful for managing several accounts simultaneously.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
